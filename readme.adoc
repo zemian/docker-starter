@@ -11,5 +11,3 @@ from https://hub.docker.com/editions/community/docker-ce-desktop-windows
 
 	docker version
 	docker run hello-world
-
-NOTE: Some Windows 10 does not show the sys tray notification icon!
