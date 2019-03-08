@@ -18,3 +18,12 @@ from https://hub.docker.com/editions/community/docker-ce-desktop-windows
 	docker run -it ubuntu bash
 
 NOTE: If installed as separated admin account, you need to run the "Docker For Windows" program with "As Administrator".
+
+== Uninstalling Dockers For Windows and Fix VirtualBox
+
+1. Uninstall Docker for Windows
+2. Disable Hyper-V for Windows 10
+
+See 
+* https://superuser.com/questions/1290051/virtualbox-no-longer-works-after-uninstalling-docker-on-windows-10
+* https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v
