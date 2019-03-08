@@ -1,0 +1,15 @@
+Docker unlocks the potential of your organization by giving developers and IT the freedom to build, manage and secure business-critical applications without the fear of technology or infrastructure lock-in.
+
+https://www.docker.com/why-docker
+
+== Getting Started
+
+1. Download "Docker For Windows.exe". (You need an account)
+from https://hub.docker.com/editions/community/docker-ce-desktop-windows
+
+2. Run
+
+	docker version
+	docker run hello-world
+
+NOTE: Some Windows 10 does not show the sys tray notification icon!
