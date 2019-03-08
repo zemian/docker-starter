@@ -27,3 +27,15 @@ NOTE: If installed as separated admin account, you need to run the "Docker For W
 See 
 * https://superuser.com/questions/1290051/virtualbox-no-longer-works-after-uninstalling-docker-on-windows-10
 * https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v
+
+== Install Docker for Ubuntu on VM
+
+----
+vagrant init ubuntu/bionic64
+vagrant up
+vagrant ssh
+sudo apt install -y docker.io
+sudo docker version
+sudo docker run hello-world
+sudo docker run -it ubuntu bash
+----
